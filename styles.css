@@ -15,6 +15,13 @@ body {
 }
 
 /* Header content full width with background color */
+.header-container {
+    width: 80%;
+    max-width: 900px; /* Aligns the header content with the rest of the content */
+    margin: 0 auto; /* Centers the header content */
+    padding: 20px 0;
+}
+
 .header-content {
     display: flex;
     align-items: center;
