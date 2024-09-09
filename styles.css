@@ -41,8 +41,11 @@ header {
 .header-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Aligns text to the left */
+    align-items: flex-start;
+    margin: 0; /* Ensure there's no margin applied */
+    padding: 0; /* Ensure no padding is applied */
 }
+
 
 .header-info h1 {
     font-size: 2.5em;
