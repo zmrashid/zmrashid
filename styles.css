@@ -11,13 +11,14 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    margin: 0;
 }
 
-/* Header content */
+/* Header content full width */
 .header-content {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100%; /* Full width for the header */
     padding: 20px;
     background-color: #f4f4f4;
 }
@@ -57,13 +58,13 @@ body {
     text-decoration: underline;
 }
 
-/* Adding margin to the rest of the content */
+/* Container for rest of the content */
 .container {
-    margin: 0 auto;
-    max-width: 900px; /* Restrict width to a max of 900px */
+    max-width: 900px; /* Set max width to control the width of the content */
+    margin: 0 auto; /* Centers the container horizontally */
     padding: 20px; /* Padding inside the container */
     background-color: white; /* Optional: makes content pop on light backgrounds */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow to make content stand out */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
 }
 
 /* Content Styling */
