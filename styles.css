@@ -11,6 +11,49 @@ body {
     line-height: 1.6;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ccc;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.header-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.header-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.header-info p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.header-info a {
+    color: #004080;
+    text-decoration: none;
+}
+
+.header-info a:hover {
+    text-decoration: underline;
+}
+
+
 .container {
     width: 80%;
     max-width: 900px;
