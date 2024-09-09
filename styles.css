@@ -11,13 +11,14 @@ body {
     line-height: 1.6;
 }
 
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-bottom: 2px solid #ccc;
 }
 
 .profile-img {
@@ -25,11 +26,12 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    margin-right: 20px;
 }
 
 .header-info {
-    flex: 1;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-info h1 {
@@ -52,7 +54,6 @@ body {
 .header-info a:hover {
     text-decoration: underline;
 }
-
 
 .container {
     width: 80%;
