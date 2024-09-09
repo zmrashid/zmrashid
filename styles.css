@@ -57,13 +57,14 @@ body {
     text-decoration: underline;
 }
 
-/* Container for rest of the content */
+/* Container for the rest of the content */
 .container {
-    max-width: 900px; /* Set max width to control the width of the content */
-    margin: 0 auto; /* Centers the container horizontally */
-    padding: 20px; /* Padding inside the container */
-    background-color: white; /* Optional: makes content pop on light backgrounds */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    width: 100%; /* Makes the container take full width initially */
+    max-width: 900px; /* Sets a maximum width of 900px */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Adds padding to ensure the content doesn't touch the edges */
+    background-color: white; /* Optional: Makes the content stand out */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
 /* Content Styling */
