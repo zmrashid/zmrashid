@@ -25,18 +25,18 @@ header {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Changed this line */
+    justify-content: flex-start; /* Aligns everything to the left with no space */
     max-width: 900px; /* Matches the container width */
     margin: 0 auto; /* Centers the header content */
     padding: 0 20px; /* Adds padding on the left and right */
     color: white;
+    gap: 10px; /* Controls the gap between the image and header-info */
 }
 
 .profile-img {
     width: 150px;
     height: auto;
     object-fit: cover;
-    /* No margin-right */
 }
 
 .header-info {
@@ -46,6 +46,7 @@ header {
     margin: 0; /* Ensure there's no margin applied */
     padding: 0; /* Ensure no padding is applied */
 }
+
 
 .header-info h1 {
     font-size: 2.5em;
