@@ -11,14 +11,12 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    width: 100%;
-    padding: 20px;
-}
-
 .header-content {
     display: flex;
     align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
 .profile-img {
@@ -30,6 +28,7 @@ body {
 }
 
 .header-info {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -55,15 +54,12 @@ body {
     text-decoration: underline;
 }
 
+/* Adding margin to the bottom content */
 .container {
-    width: 80%;
-    max-width: 900px;
-    margin: 20px auto;
+    margin: 0 auto;
+    max-width: 900px; /* Set max-width to control content width */
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
     text-align: center;
     margin-bottom: 20px;
